@@ -1,0 +1,76 @@
+Javascript
+<script src="název scriptu"></script> - na konci stránky
+alart("text")
+koncovka .js
+2 způsoby: head, body
+PROMĚNNÉ
+deklarace proměné (vytvoření) let typ typ = "hodnota" 
+př:1)
+let jméno 
+jméno ='Honza'
+2)
+let vek = 30
+matematikcké a jiné operace
+let soucet = vek + 10
+var = globální proměná
+const = konstanta př pi=3,14
+středníky: používat;;;;;;
+""spojení s textem, preference ''
+zobrazení konzole
+prave tlačítko - prozkoumat - console
+další nástroje - nástroje pro vývojáře
+
+DOM
+objektový model dokumentu
+"najít prvek"
+let nadpis = document.querySelector('h1');
+console.log(nadpis)
+('css-selector')
+
+OVLÁDÁNÍ A MANIPULACE S ELEMENTY
+backgroun-color -> backgroundColor
+vložit obrázek
+změnit zdroj
+let pes = document.querySelector('.pes');
+pes.scr = 'kocka.jpg'
+změnit text text.content
+
+FUNKCE
+sada příkazů, kterou chceme vykonávat opakovaně, vyhnout opakování kódu
+let nazevFunkce = fuction(){
+}
+function mojeFunkce(){
+}
+př: let x,y;
+x = 10; y = 20;
+function secti(a,b)
+let soucet = a+b
+
+return soucet;
+
+console.log(secti(10,10));
+console.log(secti(x,y));
+
+UDÁLOSTI
+interakce s webem, (event handler)
+<button onclick="znemPsaNaKocku">Změň psa na kočku</button>
+function znemPsaNaKocku(){
+ let pes = document.querySelector('.pes');
+ pes.src = 'kocka.jpg';
+}
+posuň zvíže do prava
+function posunZvireDoPrava(){
+ let pes = ocument.querySelector('.pes');
+ pes.style.marginLeft = "30px";
+}
+
+
+
+
+
+
+
+
+
+
+
